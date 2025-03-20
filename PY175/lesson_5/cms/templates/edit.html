@@ -1,0 +1,12 @@
+{% extends 'layout.html' %}
+{% block content %}
+  <main>
+    <form action="{{ url_for('save_file', file_name=file_name) }}" method="post">
+      <p>Edit content of {{ file_name }}</p>
+      <textarea name="content" rows="10" cols="50">{{ content }}</textarea>
+      <br>
+      <button type="submit">Save Changes</button>
+    </form>
+
+  </main>
+{% endblock %}

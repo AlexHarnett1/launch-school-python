@@ -1,0 +1,18 @@
+body {
+    padding: 1em;
+    font-family: sans-serif;
+}
+
+.flash.error {
+    color: #ff6633;
+    background: #FFCFBF;
+}
+
+.flash.success {
+    padding: 10px;
+    background: yellow
+}
+
+form.inline {
+    display: inline;
+}
